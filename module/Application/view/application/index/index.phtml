@@ -1,0 +1,71 @@
+<p>
+    Esta base foi clonada do repositório oficial do 
+    <a href="https://github.com/zendframework/ZendSkeletonApplication">Zend Framework</a>.
+</p>
+<br />
+
+<p>
+    Em geral, muito código que vem na base não é utilizado por nós em um primeiro
+    momento, como por exemplo os arquivos de tradução entre outras coisas.    
+</p>
+
+<br />
+
+<h5>O que foi removido?</h5>
+<ul>
+    <li> Arquivos de Tradução </li>
+    <li> Código referente à função translate() do framework</li>
+    <li> Código não necessário na configuração da aplicação neste momento</li>
+</ul>
+
+<br />
+
+<h5>O que foi alterado?</h5>
+<ul>
+    <li> 
+        Algumas mensagens em inglês foram passadas para nosso idioma nativo, 
+        sem a necessidade de carregamento dos arquivos extras para tradução.
+    </li>
+    <li> 
+        Arquivo .gitigone - Oculto na raíz do diretório, modificado para ignorar
+        conteúdo da pasta "vendor"
+    </li>
+    <li>
+        Arquivo README.md, que agora possui instruções de como fazer funcionar o
+        framework em seu ambiente de desenvolvimento.
+    </li>
+</ul>
+
+<br />
+
+<h5>O que foi mantido e deve ser alterado por você?</h5>
+<ul>
+    <li> 
+        Para manter a estética, foram deixados todos os ".css", ".js" e imagens 
+        da aplicação (diretório "public"). Estes devem ser removidos ou alterados
+        por você durante o desenvolvimento.
+    </li>
+    <li> 
+        O arquivo de layout da aplicação (src/view/layout/layout.phtml) manteve
+        os caminhos originais dos arquivos css e js. Ela servirá como base para 
+        você adicionar suas próprias folhas de estilo e arquivos javascript posteriormente.
+    </li>
+    <li>
+        Os arquivos de configuração (diretório "config") devem ser alterados 
+        conforme sua necessidade. Lembre-se que por padrão o git está ignorando 
+        qualquer arquivo "local.php" neste diretório. Utilize-o para manter
+        configurações que são somente suas e não compartilhadas com o resto da
+        equipe. 
+    </li>
+</ul>
+
+<br />
+
+<p>
+    <strong>Importante:</strong> 
+    Esta é somente a base para iniciar o desenvolvimento de sua aplicação. 
+    A estrutura base dos arquivos não é obrigatória em nenhum momento. 
+    Apenas tenha ciência que uma alteração na estrutura deverá implicar em 
+    reconfiguração de alguns itens, e até mesmo na perda do propósito do 
+    framework. Seja cauteloso quando (e se) fizer alterações.
+</p>
